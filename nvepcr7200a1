@@ -1,0 +1,25 @@
+#hdmi
+export	HDMI_VIDEO_PATH="bin/fb/Advantech.avi"
+export	HDMI_AUDIO_DEV="1"
+export	HDMI_RESOLUTION="1920X1024"
+export	HDMI_HZ="60"
+#usb
+export	USB_DEV_NUM="1"
+	echo 
+	echo -e "\e[39m"
+	echo "Test $Hostname script Version : $Ver"
+	echo "=========================================="
+	echo "(3)	[eMMC] - [eMMC Read\Write] test"
+	echo "(4)	[SDcard] - [SDcard Read\Write]"
+	echo "(5)	[USB] - [USB DISK]"
+	echo "(6)	[RJ45 eth0] - [Main Board] ping 192.168.0.99"
+	echo "(7)	[RJ45 eth1] - [Carrier Board] ping 192.168.0.99"
+	echo "(8)	[M.2] - [Key B - Detect Telit-l3910c4] test"
+	echo "(9)	[M.2] - [Key E - Detect AW-cb375nf] test"
+#	echo "(10)	[LED] - [Light Up] test"
+	echo "(11)	[HDMI] - [Show Picture to HDMI] test"
+	echo "(12)	[ETH_MAC] - [Flash Mac Address] eth0"
+	echo "(13)	[ETH_MAC] - [Flash Mac Address] eth1"
+	echo "(E/e)	exit test"
+	echo "=========================================="
+
