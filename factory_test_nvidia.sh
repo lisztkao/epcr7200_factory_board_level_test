@@ -127,11 +127,11 @@ do_test() {
 				pause 'Press any key to continue...'
 				;;
 			6)
-				run_test "[RJ45 eth0] - [GBE]" bin/net/test_eth_nv.sh  "eth0 1 3 192.168.0.99"
+				run_test "[RJ45 eth0] - [GBE]" bin/net/test_eth_nv.sh  "eth0 1 3 $PING_SERVER"
 				pause 'Press any key to continue...'
 				;;
 			7)
-				run_test "[RJ45 eth1] - [GBE]" bin/net/test_eth_nv.sh  "eth1 1 3 192.168.0.99"
+				run_test "[RJ45 eth1] - [GBE]" bin/net/test_eth_nv.sh  "eth1 1 3 $PING_SERVER"
 				pause 'Press any key to continue...'
 				;;
 			8)
